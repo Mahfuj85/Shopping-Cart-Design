@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Shopping Cart</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- NAVBAR -->
+        <div class="nav container">
+            <a href="#" class="logo"> <span>E</span>Commerce</a>
+            <!-- BOX-ICONS -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+
+            <!-- CART -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!-- CONTENT -->
+                <div class="cart-content">
+                    
+                    
+                </div>
+
+                <!-- TOTAL -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <!-- BUY BUTTON -->
+                <button type="button" class="btn-buy">Buy Now</button>
+
+                <!-- CART CLOSE -->
+                <i class='bx bx-x' id="cart-close"></i>
+
+            </div>
+
+        </div>
+            
+        
+    </header>
+
+    <!-- SHOP SECTION -->
+    <section class="shopping container">
+        <h2 class="section-title">Shopping Products</h2>
+
+        <!-- CONTENTS -->
+        <div class="shopping-content">
+            <!-- Box-1 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlrZSUyMHNob2VzfGVufDB8fDB8fHww" alt="Nike Shoe" class="product-img">
+                <h2 class="product-title">Nike Shoes</h2>
+                <span class="product-price">$79.99</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-2 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja3BhY2t8ZW58MHx8MHx8fDA%3D" alt="Backpack" class="product-img">
+                <h2 class="product-title">Backpack</h2>
+                <span class="product-price">$23.99</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-3 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGlwaG9uZXxlbnwwfHwwfHx8MA%3D%3D" alt="Iphone 11" class="product-img">
+                <h2 class="product-title">Iphone 11</h2>
+                <span class="product-price">$250</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-4 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1624096104992-9b4fa3a279dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGUlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D" alt="Apple Watch" class="product-img">
+                <h2 class="product-title">Apple Watch</h2>
+                <span class="product-price">$399</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-5 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1589642380614-4a8c2147b857?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHN1bmdsYXNzfGVufDB8fDB8fHww" alt="cartier sunglass" class="product-img">
+                <h2 class="product-title">Cartier Sunglass</h2>
+                <span class="product-price">$129.99</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-6 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1695634326782-1f7e0d52eda2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Metal Bottle" class="product-img">
+                <h2 class="product-title">Metal Bottle</h2>
+                <span class="product-price">$17</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-7 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1613418383495-10d3a8757315?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Canon, EOS M50 Camera" class="product-img">
+                <h2 class="product-title">Canon, EOS M50 Camera</h2>
+                <span class="product-price">$1095</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-8 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1784&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rainbow MacBook" class="product-img">
+                <h2 class="product-title">Rainbow MacBook</h2>
+                <span class="product-price">$1999</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-9 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="On-Ear Headphone" class="product-img">
+                <h2 class="product-title">On-Ear Headphone</h2>
+                <span class="product-price">$9.99</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-10 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nikon Shoe" class="product-img">
+                <h2 class="product-title">Nikon Shoes</h2>
+                <span class="product-price">$59</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-11 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcmZ1bWV8ZW58MHx8MHx8fDA%3D" alt="Perfume-Coco Noir" class="product-img">
+                <h2 class="product-title">Perfume-Coco Noir</h2>
+                <span class="product-price">$108</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-12 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Facewash-Curology" class="product-img">
+                <h2 class="product-title">Facewash-Curology</h2>
+                <span class="product-price">$16.99</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-13 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1614330315526-166f2d71e544?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdhbGxldHxlbnwwfHwwfHx8MA%3D%3D" alt="Wallet" class="product-img">
+                <h2 class="product-title">Wallet</h2>
+                <span class="product-price">$8.99</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+            <!-- Box-14 -->
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Airpode" class="product-img">
+                <h2 class="product-title">Airpode</h2>
+                <span class="product-price">$129</span>
+                <i class='bx bx-shopping-bag add-cart' id="cart-icon"></i>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
